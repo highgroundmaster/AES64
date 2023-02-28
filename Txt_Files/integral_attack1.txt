@@ -1,0 +1,9 @@
+Enter the Plaintext Delta Set 1
+
+Enter the corresponding Ciphertext Delta Set 1
+
+Enter the Plaintext Delta Set 2
+
+Enter the corresponding Ciphertext Delta Set 2
+
+   INTEGRAL ATTACK - COLUMN 0 :   0.00% 	[ ▕                                                  ▏ ]	   INTEGRAL ATTACK - COLUMN 0 :   0.00% 	[ ▕                                                  ▏ ]	   INTEGRAL ATTACK - COLUMN 0 :   0.00% 	[ ▕                                                  ▏ ]	   INTEGRAL ATTACK - COLUMN 0 :   0.01% 	[ ▕                                                  ▏ ]	   INTEGRAL ATTACK - COLUMN 0 :   0.01% 	[ ▕                                                  ▏ ]	   INTEGRAL ATTACK - COLUMN 0 :   0.01% 	[ ▕                                                  ▏ ]	   INTEGRAL ATTACK - COLUMN 0 :   0.01% 	[ ▕                                                  ▏ ]	   INTEGRAL ATTACK - COLUMN 0 :   0.01% 	[ ▕                                                  ▏ ]	   INTEGRAL ATTACK - COLUMN 0 :   0.01% 	[ ▕                                                  ▏ ]	   INTEGRAL ATTACK - COLUMN 0 :   0.02% 	[ ▕                                                  ▏ ]	   INTEGRAL ATTACK - COLUMN 0 :   0.02% 	[ ▕                                                  ▏ ]	   INTEGRAL ATTACK - COLUMN 0 :   0.02% 	[ ▕                                                  ▏ ]	   INTEGRAL ATTACK - COLUMN 0 :   0.02% 	[ ▕                                                  ▏ ]	   INTEGRAL ATTACK - COLUMN 0 :   0.02% 	[ ▕                                                  ▏ ]	

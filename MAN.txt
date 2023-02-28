@@ -1,0 +1,38 @@
+
+AES 64 CLI Application v1
+-------------------------
+
+See the Assignment PDF File or MAN.txt for more information.
+
+USAGE
+    aes64  [ -v | --verbose ]  [ command ]  [ 16-Nibble <hex_strings> ]
+
+COMMANDS
+    -e, --encrypt <key> <plaintext>               Encrypts provided Plaintext Hex string with Master Key
+    -d, --decrypt <key> <ciphertext>              Decrypts provided Ciphertext Hex string with Master Key
+    -r, --random <num (Default = 1)>              Generates <num> number of pseudo-random 16-Nibble Hexadecimal Strings
+    -s, --structure <diagonal> <key> <structure>  Generates the Structure's 5-Round Ciphertexts
+    -id, --impossible-differential <diagonal>     Figures out the Master Key from the Given Structure and Ciphertext
+    -ip, --integral-property <all_index> <constants> <master_key>
+                                                  Prints Integral Property of given Delta Set across 5 round AES64
+    -ia, --integral-attack                        Full Key Integral Attack using two pairs of Plaintext-Ciphertext Delta Sets
+    -c, --cfb                                     Encrypts the given Plaintext Blocks in CFB Mode with given IV and Master Key
+    -ce, --cfb-error
+
+    -h --help                                     Display this help
+
+NOTE
+The following cannot be used in Verbose Mode (-v, --verbose)
+    Pseudo-Random Number Generation (-r, --random),
+    Structure Encryption (-s, --structure)
+    Impossible Differential Attack (-id, --impossible-differential)
+    Integral Attack (-ia, --integral-attack)
+
+
+EXAMPLES
+    aes64
+    aes64 --help
+    aes64 -v -e 1111111111111111 ffffffffffffffff
+    aes64 -d
+    aes64 --random
+
